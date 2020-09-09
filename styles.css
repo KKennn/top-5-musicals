@@ -1,0 +1,56 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    background: #04185c;
+    color: white;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    background-color: #ffe70f;
+    border: none;
+    color: black;
+    padding: 16px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+}
+
+.button:hover {
+    background-color: #f7bb07;
+    transition: .4s ease;
+}
+
+#last {
+    margin-bottom: 40px;
+}
